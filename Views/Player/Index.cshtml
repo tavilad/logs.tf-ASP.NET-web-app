@@ -1,0 +1,48 @@
+﻿@model LogsTFWebApp.Models.PlayerViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<div>
+    <h4>PlayerViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SteamId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SteamId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Kills)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Kills)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Assists)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Assists)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Deaths)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Deaths)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DamagePerMinute)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DamagePerMinute)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
