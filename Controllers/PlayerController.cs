@@ -16,7 +16,6 @@ namespace LogsTFWebApp.Controllers
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri("http://localhost:5000/api/");
-                //HTTP GET
                 var responseTask = client.GetAsync("LogsAPI?steamId=U:1:36224460&logNumber=2304504");
                 responseTask.Wait();
 
@@ -28,10 +27,8 @@ namespace LogsTFWebApp.Controllers
 
                     data = readTask.Result;
                 }
-                else //web api sent error response 
+                else
                 {
-                    //log response status here..
-
                     ModelState.AddModelError(string.Empty, "Server error. Please contact administrator.");
                 }
             }
