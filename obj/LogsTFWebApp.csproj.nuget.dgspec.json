@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tavi\\source\\repos\\LogsTFWebApp\\LogsTFWebApp.csproj": {}
+    "D:\\dev\\LogsTFWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tavi\\source\\repos\\LogsTFWebApp\\LogsTFWebApp.csproj": {
+    "D:\\dev\\LogsTFWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tavi\\source\\repos\\LogsTFWebApp\\LogsTFWebApp.csproj",
+        "projectUniqueName": "D:\\dev\\LogsTFWebApp.csproj",
         "projectName": "LogsTFWebApp",
-        "projectPath": "C:\\Users\\tavi\\source\\repos\\LogsTFWebApp\\LogsTFWebApp.csproj",
-        "packagesPath": "C:\\Users\\tavi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tavi\\source\\repos\\LogsTFWebApp\\obj\\",
+        "projectPath": "D:\\dev\\LogsTFWebApp.csproj",
+        "packagesPath": "C:\\Users\\tavi-laptop\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\tavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tavi-laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

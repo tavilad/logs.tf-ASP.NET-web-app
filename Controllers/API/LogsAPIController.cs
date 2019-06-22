@@ -44,7 +44,7 @@ namespace LogsTFWebApp.Controllers.API
                     data.Kills = this._playerToken[$"[{steamId}]"]["kills"].Value<int>();
                     data.Assists = this._playerToken[$"[{steamId}]"]["assists"].Value<int>();
                     data.Deaths = this._playerToken[$"[{steamId}]"]["deaths"].Value<int>();
-                    data.DamagePerMinute= this._playerToken[$"[{steamId}]"]["dapm"].Value<int>();
+                    data.DamagePerMinute = this._playerToken[$"[{steamId}]"]["dapm"].Value<int>();
                     return Ok(data);
                 }
                 else

@@ -9095,7 +9095,7 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.3.0": {
-      "sha512": "IRiEFUa5b/Gs5Egg8oqBVoywhtOeaO2KOx3j0RfcYY/raxqBuEK7NXRDgOwtYM8qbi+7S4RPXUbNt+ZxyY0/NQ==",
+      "sha512": "6ENnyNU7cdmUVYblQ9GzLuJlLs9HWyoSInm+JZyCBHFUTaSQZolLIdGSZWGw5VOhjbFop+u/pU0AbKiHQKheqw==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.3.0",
       "files": [
@@ -9777,23 +9777,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tavi\\.nuget\\packages\\": {},
+    "C:\\Users\\tavi-laptop\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tavi\\source\\repos\\LogsTFWebApp\\LogsTFWebApp.csproj",
+      "projectUniqueName": "D:\\dev\\LogsTFWebApp.csproj",
       "projectName": "LogsTFWebApp",
-      "projectPath": "C:\\Users\\tavi\\source\\repos\\LogsTFWebApp\\LogsTFWebApp.csproj",
-      "packagesPath": "C:\\Users\\tavi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tavi\\source\\repos\\LogsTFWebApp\\obj\\",
+      "projectPath": "D:\\dev\\LogsTFWebApp.csproj",
+      "packagesPath": "C:\\Users\\tavi-laptop\\.nuget\\packages\\",
+      "outputPath": "D:\\dev\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\tavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tavi-laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

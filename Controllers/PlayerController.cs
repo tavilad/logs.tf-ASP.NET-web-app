@@ -12,6 +12,9 @@ namespace LogsTFWebApp.Controllers
     {
         public IActionResult Index()
         {
+            //remove this after you get the certificate
+            System.Net.ServicePointManager.ServerCertificateValidationCallback = (senderX, certificate, chain, sslPolicyErrors) => { return true; };
+
             PlayerViewModel data = null;
             using (var client = new HttpClient())
             {
