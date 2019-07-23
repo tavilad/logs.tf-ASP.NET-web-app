@@ -7,6 +7,8 @@ namespace LogsTFWebApp.Models
 {
     public class PlayerViewModel
     {
+        public string Playername { get; set; }
+
         public string SteamId { get; set; }
 
         public int Kills { get; set; }
@@ -16,5 +18,7 @@ namespace LogsTFWebApp.Models
         public int Deaths { get; set; }
 
         public int DamagePerMinute { get; set; }
+
+        public List<LogViewModel> LogList { get; set; }
     }
 }
